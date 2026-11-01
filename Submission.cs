@@ -49,7 +49,7 @@ namespace ConsoleApp1
                 XmlDocument document = new XmlDocument();
                 document.Schemas.Add(null, xsdUrl);
                 document.LoadXml(DownloadContent(xmlUrl));
-                document.Validate((sender, error) => error += error.Message + "\n");
+                document.Validate((sender, err) => error += err.Message + "\n");
 
             }
 
@@ -68,7 +68,7 @@ namespace ConsoleApp1
         
             XmlDocument document = new XmlDocument();
             document.LoadXml(DownloadContent(xmlUrl));
-            return JsonConvert.SerializeXmlNode(document);
+            return JsonConvert.SerializeXmlNode(document.DocumentElement);
             
         }
 
