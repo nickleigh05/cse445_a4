@@ -20,182 +20,164 @@
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Denali</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>907-683-9532</Phone>
+    <Phone>907-683-2294</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Fairbanks">
+      <Number>237</Number>
+      <Street>George Parks Highway</Street>
+      <City>Denali Park</City>
+      <State>AK</State>
+      <Zip>99755</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Badlands</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>605-433-5361</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Rapid City">
+      <Number>25216</Number>
+      <Street>Ben Reifel Road</Street>
+      <City>Interior</City>
+      <State>SD</State>
+      <Zip>57750</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark Rating="4.8">
 
-    <Name>Grand Canyon</Name>
+    <Name>Yellowstone</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>307-344-7381</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Bozeman">
+      <Number>2</Number>
+      <Street>Officers Row</Street>
+      <City>Yellowstone National Park</City>
+      <State>WY</State>
+      <Zip>82190</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark Rating="4.8">
 
-    <Name>Grand Canyon</Name>
+    <Name>Zion</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>435-772-3256</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="St George">
+      <Number>1</Number>
+      <Street>Zion Park Boulevard</Street>
+      <City>Springdale</City>
+      <State>UT</State>
+      <Zip>84767</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Death Valley</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>760-786-3200</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Las Vegas">
+      <Number>328</Number>
+      <Street>Greenland Boulevard</Street>
+      <City>Death Valley</City>
+      <State>CA</State>
+      <Zip>92328</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Joshua Tree</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>760-367-5500</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Palm Springs">
+      <Number>74485</Number>
+      <Street>National Park Drive</Street>
+      <City>Twentynine Palms</City>
+      <State>CA</State>
+      <Zip>92277</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Redwood</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>707-465-7335</Phone>
+    <Phone>707-465-7354</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Crescent City">
+      <Number>1111</Number>
+      <Street>Second Street</Street>
+      <City>Crescent City</City>
+      <State>CA</State>
+      <Zip>95531</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Saguaro</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>520-733-5153</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
+    <Address NearestAirport="Tucson">
+      <Number>3693</Number>
+      <Street>S Old Spanish Trail</Street>
+      <City>Tucson</City>
       <State>AZ</State>
-      <Zip>86023</Zip>
+      <Zip>85730</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Great Basin</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>775-234-7331</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Ely">
+      <Number>100</Number>
+      <Street>Great Basin National Park</Street>
+      <City>Baker</City>
+      <State>NV</State>
+      <Zip>89311</Zip>
     </Address>
 
   </NationalPark>
 
-    <NationalPark Rating="4.9">
+  <NationalPark>
 
-    <Name>Grand Canyon</Name>
+    <Name>Crater Lake</Name>
 
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
+    <Phone>541-594-3000</Phone>
 
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+    <Address NearestAirport="Klamath Falls">
+      <Number>1</Number>
+      <Street>Munson Valley Road</Street>
+      <City>Crater Lake</City>
+      <State>OR</State>
+      <Zip>97604</Zip>
     </Address>
 
   </NationalPark>
