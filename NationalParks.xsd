@@ -1,0 +1,49 @@
+<!-- 
+
+NationalParks
+NationalPark attributes: NearestAirport (Required), Rating (Optional)
+NationalPark sequence (Left to right):
+1. Name
+2. Phone
+3. Address Sequence: Number, Street, City, State, Zip
+
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="NationalParks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NationalPark" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="NationalPark">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element ref="Address"/>
+      </xs:sequence>
+      <xs:attribute name="Rating" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Address">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Number" type="xs:string"/>
+        <xs:element name="Street" type="xs:string"/>
+        <xs:element name="City" type="xs:string"/>
+        <xs:element name="State" type="xs:string"/>
+        <xs:element name="Zip" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
+
+
