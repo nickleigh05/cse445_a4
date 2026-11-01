@@ -41,11 +41,35 @@ namespace ConsoleApp1
         public static string Verification(string xmlUrl, string xsdUrl)
         {
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
+
+            string error = "";
+
+            try{
+
+                XmlDocument document = new XmlDocument();
+                document.Schemas.Add(null, xsdUrl);
+                document.LoadXml(DownloadContent(xmlUrl));
+                document.Validate((sender, error) => error += error.Message + "\n");
+
+            }
+
+            catch (Exception exception){
+        
+                error += exception.Message + "\n";
+            }
+
+            return error == "" ? "No Error" : error;
+
         }
 
         public static string Xml2Json(string xmlUrl)
         {
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
+        
+            XmlDocument document = new XmlDocument();
+            document.LoadXml(DownloadContent(xmlUrl));
+            return JsonConvert.SerializeXmlNode(document);
+            
         }
 
         // Helper method to download content from URL
