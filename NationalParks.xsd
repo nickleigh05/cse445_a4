@@ -9,7 +9,7 @@ NationalPark sequence (Left to right):
 
 -->
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/nickleigh05/cse445_a4" targetNamespace="https://github.com/nickleigh05/cse445_a4" elementFormDefault="qualified">
 
   <xs:element name="NationalParks">
     <xs:complexType>

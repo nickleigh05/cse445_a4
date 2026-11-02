@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<NationalPark>
+<NationalPark xmlns="https://github.com/nickleigh05/cse445_a4">
 
   <NationalPark Rating="4.9">
 
